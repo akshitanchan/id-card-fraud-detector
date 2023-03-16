@@ -19,7 +19,6 @@ class Config(object):
     SESSION_COOKIE_SECURE = True
     DEFAULT_THEME = None
 
-
 class ProductionConfig(Config):
     pass
 
@@ -33,7 +32,6 @@ class DevelopmentConfig(Config):
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
 
-
 class TestingConfig(Config):
     DEBUG = True
 
@@ -44,6 +42,5 @@ class TestingConfig(Config):
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
 
- 
 class DebugConfig(Config):
     DEBUG = False
