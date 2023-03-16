@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="nofollow, noindex">
+        <title>Project: ID Card Fraud Detector</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <link href="https://akshitanchan.com/assets/css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            dayNumber = new Date().getDay();
+            document.writeln('<link rel="stylesheet" type="text/css" href="https://akshitanchan.com/assets/css/var/' + dayNames[dayNumber] + '.css">');
+        </script>
+    </head>
+
+    <body>
+        <div data-animation="default" data-collapse="small" data-duration="0" data-easing="ease-out-cubic"
+            data-easing2="ease-out-cubic" role="banner" class="navbar w-nav">
+            <div class="container menu w-container">
+                <a href="https://akshitanchan.com" aria-current="page" class="button menu w-button w--current">Akshit Anchan</a>
+                <div class="menu-button w-nav-button">
+                    <p data-w-id="186ecda1-2ceb-0acb-19f3-b04daa9a1a21" class="button menu open">Menu</p>
+                    <p data-w-id="56df7c21-c68f-a0fe-7deb-c479ed312abb" class="button menu close">Close</p>
+                </div>
+                <nav role="navigation" class="nav-menu w-nav-menu">
+                    <div class="tag white-tag menu">
+                        <div class="nav-link-wrapper">
+                            <a href="https://akshitanchan.com/about" class="nav-link w-nav-link">About</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="https://akshitanchan.com#works" class="nav-link first w-nav-link">Works</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="https://akshitanchan.com/journal" class="nav-link w-nav-link">Journal</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="https://akshit.org" class="nav-link w-nav-link">Impact</a>
+                        </div>
+                        <div class="nav-link-wrapper">
+                            <a href="https://akshitanchan.com/contact" class="nav-link last w-nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="section hero wf-section">
+            <div class="container w-container">
+                <div class="hero-container">
+                    <div class="hero-top-wrapper">
+                        <div class="padding-wrapper">
+                            <h1 class="white">Project: ID Card Fraud Detector</h1>
+                        </div>
+                    </div>
+                    <div class="hero-bottom-wrapper padding-bottom-mobile">
+                        <a class="link-block side-by-side w-inline-block">
+                            <p class="big-text">Upload the ID Card <span class="underline-text">here</span>.
+                            </p>
+                            <div class="arrow-container">
+                                <div class="arrow-rotator left">
+                                    <div class="arrow">
+                                        <img src="assets/images/arrow.svg" loading="lazy"
+                                            data-w-id="d455920f-24e7-a702-e76f-4c3c38042630" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="form-block w-password-page w-form">
+                            <form action="/" method="post" class="col s12" enctype="multipart/form-data" name="email-form" data-name="Email Form" class="_12-columns align-left w-password-page">
+                                <div class="column _8-columns-desktop _12-columns-mobile">
+                                    <input type="file" name="file_upload" id="file_upload">
+                                    <input style="display: none;" class="file-path validate" type="text" placeholder="Upload file" name="file_name" id="file_name">
+                                </div>
+                                <br>
+                                <div class="column _4-columns-desktop _12-columns-mobile">
+                                    <div class="file-field input-field">
+                                        <div class="file-path-wrapper">
+                                            <button type="submit" class="button w-password-page w-button file-path validate">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section margin-top footer wf-section">
+            <div class="container w-container">
+                <div class="_12-columns">
+                    <div class="column _6-columns-desktop">
+                        <p>© Akshit Anchan 2022</p>
+                    </div>
+                    <div class="column _6-columns-desktop">
+                        <div class="links-wrapper">
+                            <a href="mailto:hello@akshitanchan.com" target="_blank" class="footer-link">Email</a>
+                            <a href="http://www.instagram.com/akshitanchan" target="_blank" class="footer-link margin-left">Instagram</a>
+                            <a href="http://www.linkedin.com/akshitanchan" target="_blank" class="footer-link margin-left">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../static/js/materialize.js"></script>
+        <script type="text/javascript">
+            document.getElementById('file_upload').onchange=function () {
+                document.getElementById('file_name').value=this.value.slice(12,100);
+            };
+        </script>
+    </body>
+</html>
